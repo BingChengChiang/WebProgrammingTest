@@ -36,7 +36,7 @@ body{
 }
 .wrapper .header .innertext{
   color:whitesmoke;
-  font-size: 7vh;
+  font-size: 2em;
   line-height: 100%;
   height: 100%;
   font-weight: bold;
@@ -104,6 +104,7 @@ body{
   padding: 0.4vw;
   box-sizing: border-box;
   text-align: center;
+  font-size: 0.7em;
 }
 
 .wrapper .album-title{
@@ -118,7 +119,7 @@ body{
   color: rgba(245, 245, 245, 0.74);
   line-height: 6vh;
   height: 6vh;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   font-weight: bold;
 }
 .wrapper .album-title img{
@@ -184,11 +185,11 @@ body{
 }
 .wrapper .caption-case #number{
   grid-area: number;
-  font-size: 3vh;
+  font-size: 1em;
 }
 .wrapper .caption-case #caption{
   grid-area: caption;
-  font-size: 2.7vh;
+  font-size: 1.2em;
   font-weight: bolder;
   color:whitesmoke;
 }
@@ -224,7 +225,7 @@ body{
   background-color: #00003f;
   grid-area: footer;
   padding: 0.5vh 2vw;
-  font-size: 2vh;
+  font-size: 0.8em;
 }
 
 
@@ -341,7 +342,7 @@ body{
     color: rgba(245, 245, 245, 0.74);
     line-height: 12vh;
     height: 12vh;
-    font-size: 3vw;
+    font-size: 1.2em;
     font-weight: bold;
   }
   .wrapper .album-title img{
