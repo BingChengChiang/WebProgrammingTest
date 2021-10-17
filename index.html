@@ -1,81 +1,63 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>AstroAlbum</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-
-      <div class="header block">
-        <div class="innertext">AstroAlbum</div>
-        <div class="navbutton"><img src="./images/icon/nav.png"></div>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Forum</a></li>
-            <li><a href="#">Sign In/Up</a></li>
-        </ul>
-        </nav>
-        <div style="clear: both"></div>
-      </div>
-
-      <div class="album-case block">
-        <div class="album-cover">
-          <img src="images/Large/TriangulumGalaxy.jpg">
-          <div id="title">2021 BingCheng AstroPhoto</div>
-        </div>
-        <div class="album-cover">
-          <img id="add-icon" src="images/icon/add.png">
-          <div id="title"></div>
-        </div>
-      </div>
-
-      <div class="album-title block">
-        <div id="inner">
-          2021 BingCheng AstroPhoto
-          <hr>
-        </div>
-        <img src="images/icon/edit.png">
-      </div>
-
-      <div class="show-case block">
-        <img src="images/Large/TriangulumGalaxy.jpg">
-      </div>
-
-      <div class="thumbnail-case block">
-        <img src="images/Thumbnail/TriangulumGalaxy.jpg" alt="TriangulumGalaxy" id=one>
-        <img src="images/Thumbnail/HeartNebula.jpg" alt="HeartNebula" id=two>
-        <img src="images/Thumbnail/Cassiopia.jpg" alt="Cassiopia">
-        <img src="images/Thumbnail/LagoonAndTrifidNebula.jpg" alt="LagoonAndTrifidNebula">
-        <img src="images/Thumbnail/Sagittarius.jpg" alt="Sagittarius">
-        <img src="images/Thumbnail/CruxAndEtaCarina.jpg" alt="CruxAndEtaCarina">
-        <img src="images/Thumbnail/ZhunanMilkyWay.jpg" alt="ZhunanMilkyWay">
-        <img src="images/Thumbnail/MountDongPuStarTrail.jpg" alt="MountDongPuStarTrail">
-        <img src="images/Thumbnail/KunYangMilkyWay.jpg" alt="KunYangMilkyWay">
-        <img src="images/Thumbnail/CaliforniaNebula.jpg" alt="CaliforniaNebula">
-        <img src="images/Thumbnail/LunarEclipse.jpg" alt="LunarEclipse">
-        <img src="images/Thumbnail/MoonHalo.jpg" alt="MoonHalo">
-        <img src="images/Thumbnail/NorthAmericaNebula.jpg" alt="NorthAmericaNebula">
-        <img src="images/Thumbnail/VeilNebula.jpg" alt="VeilNebula">
-        <img src="images/icon/add.png" alt="AddAnPhoto">
-      </div>
-
-      <div class="caption-case block">
-        <div id="space-left"></div>
-        <div id="number">1 of 14</div>
-        <div id="caption">M33 Triangulum Galaxy</div>
-        <div id="back"><img src="./images/icon/back.png"></div>
-        <div id="next"><img src="./images/icon/next.png"></div>
-        <div id="space-right"></div>
-      </div>
-
-      <div class="footer block">
-        It's a free space to put your pics here!
-      </div>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Photo Album</title>
+  <link
+    rel="stylesheet"
+    type="text/css" 
+    media="screen"
+    href="styles.css"
+  />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header block">
+      <div class="innertext">AstroAlbum</div>
+      <div class="navbutton"><img src="./images/icon/nav.png"></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Sign In/Up</a></li>
+      </ul>
+      </nav>
+      <div style="clear: both"></div>
     </div>
-  </body>
+
+    <div class="album-case block"></div>
+
+    <div class="album-title block">
+      <img id="delete-album" src="./images/icon/trash.png" >
+      <div id="inner">
+        <span id="album-name"></span>
+        <hr>
+      </div>
+      <img id="edit-title" src="images/icon/edit.png">
+    </div>
+
+    <div class="show-case block"></div>
+
+    <div class="thumbnail-case block"></div>
+
+    <div class="caption-case block">
+      <div id="space-left"></div>
+      <div id="delete-image"><img id="deleteimagebutton"src="./images/icon/trash.png"></div>
+      <div id="number"></div>
+      <div id="caption"></div>
+      <div id="back"><img id="backbutton"src="./images/icon/back.png"></div>
+      <div id="next"><img id="nextbutton" src="./images/icon/next.png"></div>
+      <div id="space-right"></div>
+    </div>
+
+    <div class="footer block">
+      It's a free space to put your pics here!
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
 </html>
