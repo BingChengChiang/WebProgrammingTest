@@ -42,7 +42,9 @@ const imagePathCaption = [
         ["https://i.imgur.com/Sn9WuAN.jpg", "M42 Orion Nebula"],
         ["https://i.imgur.com/kCVkp4q.jpg", "Comet 46P"]
     ],
-    []
+    [
+        
+    ]
 ]
 
 class AlbumList{
