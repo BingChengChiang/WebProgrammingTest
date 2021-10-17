@@ -2,7 +2,8 @@ const albumName = [
     "2021 BingCheng AstroPhoto",
     "2020 BingCheng AstroPhoto",
     "2019 BingCheng AstroPhoto",
-    "2018 BingCheng AstroPhoto"
+    "2018 BingCheng AstroPhoto",
+    "2017 BingCheng AstroPhoto"
     
 ]
 const imagePathCaption = [
@@ -40,7 +41,8 @@ const imagePathCaption = [
     [
         ["https://i.imgur.com/Sn9WuAN.jpg", "M42 Orion Nebula"],
         ["https://i.imgur.com/kCVkp4q.jpg", "Comet 46P"]
-    ]
+    ],
+    []
 ]
 
 class AlbumList{
