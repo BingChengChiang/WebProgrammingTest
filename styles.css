@@ -274,10 +274,10 @@ body{
     width: 100vw;
     box-sizing: margin-box;
     background-color: gray;
-    height: 200vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 15fr 35fr;
-    grid-template-rows: 0.75fr 6fr 1fr 0.75fr 6fr 0.5fr;
+    grid-template-rows: 1fr 6fr 1fr 0.75fr 6fr 0.5fr;
     grid-template-areas: 
       "header header"
       "show-case show-case"
@@ -336,6 +336,11 @@ body{
     justify-content: center;
     padding: 1vw;
     overflow-y: scroll;
+    text-align: center;
+    color:rgba(245, 245, 245, 0.74);
+    font-size: 2vw;
+    font-weight: bold;
+  
   }
   .wrapper .album-case img{
     width:21vw;
